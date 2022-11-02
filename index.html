@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Compétence 2</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <img id="logo" src="images/nvxlogo.png" alt="logo"/>
+            <div id="contul">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index2.html">Livres</a></li>
+                    <li><a href="#contact">Compte</a></li>
+                    <li><a href="#contact">Panier</a></li>
+                </ul>  
+            </div>
+
+            <div>
+               <!--<input id="searchbar" onkeyup="Recherche" type="text" name="search" placeholder="Recherche">
+                <button type="button" class="btn btn-primary">Rechercher</button>-->
+
+                 <form class="d-flex" role="search">
+                    <input id="recherche" class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <button id="buttrecherche" class="btn btn-outline-success" type="submit">Rechercher</button>
+                </form>
+            </div>
+        </nav>
+        </header>
+        <br>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="imgcarou" src="images/bibli2.jpg" class="d-block w-100" alt="...">
+                <p class="maintext">Offrez une nouvelle vie à toute vos bibliothèques !</p>
+                <button class="mainbuttons"type="button" class="btn btn-primary">J'achète !</button>
+              </div>
+              <div class="carousel-item">
+                <img class="imgcarou" src="images/bibli.carou.jpg" class="d-block w-100" alt="...">
+                <p class="maintext">Offrez une nouvelle vie à toute vos bibliothèques !</p>
+                <button class="mainbuttons"type="button" class="btn btn-primary">J'achète !</button>
+              </div>
+              <div class="carousel-item">
+                <img class="imgcarou" src="images/bibli4.jpg" class="d-block w-100" alt="...">
+                <p class="maintext">Offrez une nouvelle vie à toute vos bibliothèques !</p>
+                <button class="mainbuttons"type="button" class="btn btn-primary">J'achète !</button>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+        <section id="allart">
+        <section class="articles">
+                <img class="image-articles" src="images/bibliothécaire.jpg" alt="personne en train de lire">
+            <div id="legend">
+                <h1 class="titleart">On récupère</h1>
+                <p>On récupère les livres qui prennent la poussière dans les bibliothèques</p>
+                <button  class="artbuttons" type="button" class="btn btn-primary">En savoir plus</button>
+            </div>
+        </section>
+
+        <section class="articles">
+        <img class="image-articles" src="images/beaulivre.jpg" alt="personne en train de lire">
+        <div id="legend">
+            <h1 class="titleart">On recycle</h1>
+            <p>On refait une petite beauté au livre : nettoyage, recollage...</p>
+            <button  class="artbuttons" type="button" class="btn btn-primary">En savoir plus</button>
+        </div>
+        </section>
+
+        <section class="articles">
+            <img class="image-articles" src="images/Vente.jpg" alt="personne en train de lire">
+            <div id="legend">
+                <h1 class="titleart">On revend</h1>
+                <p>On met le livre sur notre site avec une description détaillé de son état et à petit prix !</p>
+                <button  class="artbuttons" type="button" class="btn btn-primary">En savoir plus</button>
+            </div>
+            </section>
+        </section>
+            <br><br>
+            <h1 id="h1contact">Nous contacter</h1>
+        <br>
+            <hr>
+        <br>
+
+        <section id="contact">
+
+            <section id="seccontact">
+                <p id="textcontact">Une question ? Des livres qui prennent la poussière dans votre bibliothèque ? 
+                    N’hésitez pas à nous contacter, nous serons heureux de répondre à toutes vos questions? </p>
+            </section>
+
+        <br>
+
+            <section id="form">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Votre prénom : </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Votre adresse e-mail : </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Votre message : </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+                <button id="subbuttons" class="btn btn-primary" type="submit">Envoyer</button>
+            </div>
+            </section>
+
+    </section>
+
+    <br>
+        <footer>
+            <p>Books & Co. est une entreprise fondée en 2022</p>
+            <br>
+            <p>Copyright&copy;</p>
+            <p>Mentions légales</p>
+            <img class="icone" src="images/iconefacebook.png">
+            <img class="icone" src="images/iconeinsta.webp">
+            <img class="icone" src="images/iconetwitter.png">
+        </footer>
+
+</body>
+</html>
