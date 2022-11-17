@@ -792,6 +792,16 @@
             padding: 30px;
         }
 
+        #app {
+            color: #ff5757;
+        }
+        .card-text {
+            color: #00c2cb;
+        }
+
+        .card-titlev {
+            color: #00c2cb;
+        }
     
     
         
