@@ -4,7 +4,7 @@
       {
         "id": 1,
         "name": "Bel ami",
-        "detail": "Lorem ipsum dolo sit amet",
+        "detail": "Maupassant",
         "texte": "Description du livre, articles, avis....",
         "texte2": "En savoir plus",
         "image": "./images/beaulivre.jpg"
@@ -12,7 +12,7 @@
       {
           "id": 2,
           "name": "Candide",
-          "detail": "Lorem ipsum dolo sit amet",
+          "detail": "Voltaire",
           "texte": "Description du livre, articles, avis....",
           "texte2": "En savoir plus",
           "image": "./images/beaulivre.jpg"
@@ -20,7 +20,7 @@
         {
           "id": 3,
           "name": "Les misérables",
-          "detail": "Lorem ipsum dolo sit amet",
+          "detail": "Victor Hugo",
           "texte": "Description du livre, articles, avis....",
           "texte2": "En savoir plus",
           "image": "./images/beaulivre.jpg"
