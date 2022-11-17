@@ -7,6 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Compétence 2</title>
 </head>
 <body>
@@ -125,6 +127,83 @@
 
     </section>
 
+    <!--<div class="cardv" style="width: 18rem;">
+        <img src="images/images.jpeg" class="card-img-topv" alt="...">
+        <div class="card-bodyv">
+          <h5 class="card-titlev">Bel ami</h5>
+
+          <div id="app">
+            <li class="lcard" v-for="product in products">
+                Auteur : {{ product.author }} <br/> Prix : {{ product.price }}
+            </li>
+        </div>
+
+          <a href="#" class="btn btn-primary">Acheter</a>
+        </div>
+      </div>
+
+    
+      <div class="cardv" style="width: 18rem;">
+        <img src="images/images.jpeg" class="card-img-topv" alt="...">
+        <div class="card-bodyv">
+          <h5 class="card-titlev">Bel ami</h5>
+
+          <div id="app">
+            <li class="lcard" v-for="product in products">
+                Auteur : {{ product.author }} <br/> Prix : {{ product.price }}
+            </li>
+        </div>
+
+          <a href="#" class="btn btn-primary">Acheter</a>
+        </div>
+      </div>
+
+      <div class="cardv" style="width: 18rem;">
+        <img src="images/images.jpeg" class="card-img-topv" alt="...">
+        <div class="card-bodyv">
+          <h5 class="card-titlev">Bel ami</h5>
+
+          <div id="app">
+            <li class="lcard" v-for="product in products">
+                Auteur : {{ product.author }} <br/> Prix : {{ product.price }}
+            </li>
+        </div>
+
+          <a href="#" class="btn btn-primary">Acheter</a>
+        </div>
+      </div>-->
+
+      <main id="app">
+        <h1 class="pb-3 mb-4 font-italic border-bottom">
+           Les livres du moment
+        </h1>
+        <div class="containerv">
+          <div class="row">
+             <div v-for="product in products" class="col-md-4">
+                <div class="card mb-4 text-dark bg-light">
+                   <img class="card-img-topv" :src=`${product.image}` alt="Card image">
+                   <div class="card-body">
+                      <h5 class="card-titlev">{{ product.name }}</h5>
+                      <p class="card-text">{{ product.texte }}</p>
+                      <a href="#" class="btn btn-outline-custom btn-sm btn-read-more">{{product.texte_btn}}</a>
+                   </div>
+                </div>
+             </div>
+           </div>
+          </div>
+          <div class="pb-3 mb-4 border-top">
+          </div>
+        </div>
+      </main>
+
+
+    
+    
+
+
+
+
+   
     <br>
         <footer>
             <p>Books & Co. est une entreprise fondée en 2022</p>
@@ -135,6 +214,8 @@
             <img class="icone" src="images/iconeinsta.webp">
             <img class="icone" src="images/iconetwitter.png">
         </footer>
-
+       <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>-->
+        <script src="js/main.js"></script>
 </body>
 </html>

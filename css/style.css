@@ -204,6 +204,38 @@
         width: 34px;
         height: 35px;
     }
+
+   .card-img-topv {
+        height: 200px;
+        width: 180px;
+    }
+
+    .cardv {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        background-color:rgba(0, 194, 203, 0.1);
+        padding: 10px;
+        border-radius: 15px ;
+    }
+
+    .lcard {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .card-titlev {
+        padding: 10px;
+    }
+
+ 
+    .card-bodyv {
+        padding: 10px;
+    }    
+
+   
     }
     
     
@@ -444,6 +476,36 @@
             width: 34px;
             height: 35px;
         }
+        .card-img-topv {
+            height: 200px;
+            width: 180px;
+        }
+    
+        .cardv {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            background-color:rgba(0, 194, 203, 0.1);
+            padding: 10px;
+            border-radius: 15px ;
+        }
+    
+        .lcard {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+    
+        .card-titlev {
+            padding: 10px;
+        }
+    
+     
+        .card-bodyv {
+            padding: 10px;
+        }   
+    
         
     }
     
@@ -690,6 +752,47 @@
             width: 34px;
             height: 35px;
         }
+
+       .card-img-topv {
+            height: 200px;
+            width: 180px;
+
+        }
+    
+        .cardv {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            background-color:rgba(0, 194, 203, 0.1);
+            padding: 10px;
+            border-radius: 15px ;
+            align-items: center;
+            
+        }
+    
+        .lcard {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+    
+        .card-titlev {
+            padding: 10px;
+        }
+    
+     
+        .card-bodyv {
+            padding: 10px;
+        }  
+
+        .card-img-topv {
+            height: 200px;
+            width: 415px;
+            padding: 30px;
+        }
+
+    
+    
         
     }
-    

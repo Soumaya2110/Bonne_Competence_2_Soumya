@@ -1,0 +1,29 @@
+
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Bel ami",
+        "detail": "Lorem ipsum dolo sit amet",
+        "texte": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "texte_btn": "Read more",
+        "image": "./images/beaulivre.jpg"
+      },
+      {
+          "id": 2,
+          "name": "Candide",
+          "detail": "Lorem ipsum dolo sit amet",
+          "texte": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          "texte_btn": "Read more",
+          "image": "./images/beaulivre.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Les misérables",
+          "detail": "Lorem ipsum dolo sit amet",
+          "texte": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+          "texte_btn": "Read more",
+          "image": "./images/beaulivre.jpg"
+        }
+    ]
+  }
