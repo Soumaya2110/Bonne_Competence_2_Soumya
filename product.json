@@ -24,6 +24,15 @@
           "texte": "Description du livre, articles, avis....",
           "texte2": "En savoir plus",
           "image": "./images/beaulivre.jpg"
+        },
+
+        {
+          "id": 4,
+          "name": "Les misérables",
+          "detail": "Victor Hugo",
+          "texte": "Description du livre, articles, avis....",
+          "texte2": "En savoir plus",
+          "image": "./images/beaulivre.jpg"
         }
     ]
   }
